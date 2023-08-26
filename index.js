@@ -26,5 +26,5 @@ const host = "0.0.0.0";
 const port = 8000;
 
 server.listen(port, host, () => {
-  console.log("server is running");
+  console.log(`Server is running on port:${port}`);
 })
